@@ -8,14 +8,14 @@ Imaginary component of the complex solution to the Kelvin Differential Equation.
 Bei(...)
 }
 \arguments{
-  \item{\dots}{arguments to pass to \item{Beir()}
+  \item{\dots}{arguments to pass to Beir
 }
 }
 \details{
-An alias function which uses the method \item{Beir()}.
+An alias function which uses the method Beir.
 }
 \value{
-a vector or imaginal components.  If \item{nSeq>1} the result is a matrix for
+a vector or imaginal components.  If $nSeq>1$ the result is a matrix for
 the orders of the resulting sequence.
 %%  ~Describe the value returned
 %%  If it is a LIST, use
