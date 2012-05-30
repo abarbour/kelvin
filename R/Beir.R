@@ -1,0 +1,2 @@
+Beir <-
+function(...) UseMethod("Beir")

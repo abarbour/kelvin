@@ -1,0 +1,11 @@
+Package: kelvin
+Type: Package
+Title: A wrapper to calculate Kelvin functions: Kei, Ker, Bei, Ber
+Version: 1.0
+Date: 2012-05-30
+Author: Andrew J Barbour
+Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
+Description: Wrapper functions to calculate Kelvin functions, using Bessel functions.
+Imports: Bessel
+Depends: Bessel
+License: GPL-2
