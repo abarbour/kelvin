@@ -25,7 +25,8 @@ function(xseq, nu.=0, add.tol=TRUE, return.list=TRUE, ...){
 	#	=	J_0(sqrt(2)*(i-1)*x/2)
 	#	=	ber(x) + i*bei(x)
 	toret <- exp(-1*nu.*pi*(1i)/2)*Bessel::BesselK(xseq*exp(pi*(1i)/4), nu=nu., ...)
-	if (return.list){
+	#toret <- Bessel::BesselK(xseq*exp(pi*(1i)/4), nu=nu., ...)
+  if (return.list){
 		toret <- list(kei=Im(toret), ker=Re(toret))
 		if (ret.ind){toret$zero.indices=zero.inds}
 	}
