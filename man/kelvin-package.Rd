@@ -14,8 +14,8 @@ order.
 \tabular{ll}{
 Package: \tab kelvin\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-05-30\cr
+Version: \tab 1.0-1\cr
+Date: \tab 2012-07-27\cr
 License: \tab GPL-2\cr
 }
 }
@@ -33,10 +33,10 @@ Andrew J. Barbour
 \code{\link[<Bessel>:<Bessel>-package]{<Bessel>}} 
 }
 \examples{
-Kelvin{1:10}
+Kelvin{1:10}	# defaults to nu.=0, nSeq=1
 Kelvin{1:10,nSeq=2}
 Kelvin{1:10,nSeq=2,return.list=FALSE}
-Beir{1:10}
+Beir{1:10}	# defaults to nu.=0, nSeq=1
 Beir{1:10,nSeq=2}
 Beir{1:10,nSeq=2,return.list=FALSE}
 }
