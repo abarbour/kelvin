@@ -1,8 +1,8 @@
 Package: kelvin
 Type: Package
 Title: A set of wrapper-functions to calculate solutions to the Kelvin Differential Equations, namely the Kelvin functions Kei, Ker, Bei, and Ber.
-Version: 1.0
-Date: 2012-05-30
+Version: 1.0-1
+Date: 2012-07-27
 Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
 Description: Wrapper functions to calculate Kelvin functions, using Bessel functions.

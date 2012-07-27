@@ -1,4 +1,5 @@
-30-May-2012
+Last updated: 28-Jul-2012
+Previous update: 30-May-2012
 +++++++++++++++++++++++++ PACKAGING
 
 [ ] * Edit the help file skeletons in 'man', possibly combining help files
@@ -15,5 +16,9 @@
 +++++++++++++++++++++++++ DEVELOPMENT
 
 [ ]  plot method?
+[ ]  Add deriviatives: from Abromowitz and Stegun
+[ ]  How do I deal with the fact that Bessel overrides funcamental base::
+functions like cbind, %*%, etc.? Could this post help?
+(http://stackoverflow.com/questions/10947159/writing-robust-r-code-namespaces-masking-and-using-the-operator)
 
 +++++++++++++++++++++++++ 
