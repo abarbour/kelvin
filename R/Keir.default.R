@@ -1,5 +1,8 @@
 Keir.default <-
-function(xseq, nu.=0, add.tol=TRUE, return.list=TRUE, ...){
+function(xseq, nu.=0, nSeq.=1, 
+         add.tol=TRUE, 
+         return.list=TRUE, 
+         show.scaling=FALSE, ...){
 	if (add.tol){
 		ret.ind <- FALSE
 		#heuristic fix for zero values
@@ -24,11 +27,25 @@ function(xseq, nu.=0, add.tol=TRUE, return.list=TRUE, ...){
 	#	J_0(i*sqrt(i)*x)
 	#	=	J_0(sqrt(2)*(i-1)*x/2)
 	#	=	ber(x) + i*bei(x)
-	toret <- exp(-1*nu.*pi*(1i)/2)*Bessel::BesselK(xseq*exp(pi*(1i)/4), nu=nu., ...)
-	#toret <- Bessel::BesselK(xseq*exp(pi*(1i)/4), nu=nu., ...)
+  #
+  BessX <- xseq*exp(pi/4*1i)
+  # Bug fix: must multiply by the specific scaling for nu., so if
+  # nSeq is given the scaling will be wrong.  Fix is to create a
+  # vector of scalings.  This page was useful:
+  #http://keisan.casio.com/has10/SpecExec.cgi
+  Nu. <- nu.:(nu.+nSeq.-1)
+  Bsc <- zapsmall(exp(-pi/2*(Nu.)*1i))
+  if (show.scaling) {message(sprintf("\t>>>>\tnu=%i\tscaling:\t%s\n",Nu,Bsc))}
+  #
+  Bsl <- Bessel::BesselK(BessX, nu=nu., nSeq=nSeq.)
+  nr. <- nrow(Bsl)
+	mBsc <- matrix(rep(Bsc,nr.), nrow=nr., byrow=T)
+  Bsl <- mBsc*Bsl
+  rm(mBsc) #cleanup
+  #
   if (return.list){
-		toret <- list(kei=Im(toret), ker=Re(toret))
-		if (ret.ind){toret$zero.indices=zero.inds}
+    Bsl <- list(kei=Im(Bsl), ker=Re(Bsl))
+		if (ret.ind){Bsl$zero.indices=zero.inds}
 	}
-	return(toret)
+	return(Bsl)
 }
