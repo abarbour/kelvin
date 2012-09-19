@@ -1,4 +1,5 @@
-.git*
+.git/*
+.gitignore
 Read-and-delete-me
 TODO
 ^\.Rproj\.user$

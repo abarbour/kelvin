@@ -1,42 +1,35 @@
+\docType{package}
 \name{kelvin-package}
 \alias{kelvin-package}
-\alias{kelvin}
-\docType{package}
-\title{
-Kelvin: Uses Bessel functions to calculate Kelvin functions: Bei, Ber, Kei, Ker
+\title{Fundamental and complementary solutions to the Kelvin differential equations}
+\usage{
+  .onLoad(...)
 }
 \description{
-Simple wrapper functions 
-which may be used to calculate Kelvin functions of arbirtrary
-order.
+  Kelvin defined the Kelvin functions bei and ber according
+  to ber_v(x) + i*bei_v(x) = J_v(x*exp(3*pi*i/4)) =
+  exp(v*pi*i)*J_v(x*exp(-pi*i/4)) =
+  exp(v*pi*i/2)*I_v(x*exp(pi*i/4)) =
+  exp(3*v*pi*i/2)*I_v(x*exp(-3*pi*i/4)) where J_v(x) is a
+  Bessel function of the first kind and I_v(x) is a
+  modified Bessel function of the first kind. These
+  functions satisfy the Kelvin differential equation.
+  Similarly, the functions kei and ker by ker_v(x) +
+  i*kei_v(x) = exp(-v*pi*i/2)*K_v(x*exp(pi*i/4)) where
+  K_v(x) is a modified Bessel function of the second kind.
+  For the special case v=0, J_0(i*sqrt(i)*x) =
+  J_0(sqrt(2)*(i-1)*x/2) = ber(x) + i*bei(x)
 }
-\details{
-\tabular{ll}{
-Package: \tab kelvin\cr
-Type: \tab Package\cr
-Version: \tab 1.0-1\cr
-Date: \tab 2012-07-27\cr
-License: \tab GPL-2\cr
-}
+\note{
+  a note
 }
 \author{
-Andrew J. Barbour
-(and maintainer) <andy.barbour@gmail.com>
+  Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-\link{http://mathworld.wolfram.com/KelvinFunctions.html}
+  \link{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
-\keyword{ Bessel functions }
-\keyword{ Kelvin functions }
-\keyword{ Orthogonal functions }
 \seealso{
-\code{\link[<Bessel>:<Bessel>-package]{<Bessel>}} 
+  \code{\link{Kelvin}}, \code{\link{Beir}},
 }
-\examples{
-Kelvin{1:10}	# defaults to nu.=0, nSeq=1
-Kelvin{1:10,nSeq=2}
-Kelvin{1:10,nSeq=2,return.list=FALSE}
-Beir{1:10}	# defaults to nu.=0, nSeq=1
-Beir{1:10,nSeq=2}
-Beir{1:10,nSeq=2,return.list=FALSE}
-}
+

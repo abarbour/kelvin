@@ -33,7 +33,7 @@
 #' Keir(1:10,nSeq=2)
 #' Keir(1:10,nSeq=2,return.list=FALSE)
 Keir.default <-
-function(xseq, nu., nSeq., 
+function(xseq, nu.=0, nSeq.=1,
          add.tol=TRUE, 
          return.list=FALSE, 
          show.scaling=FALSE, ...){

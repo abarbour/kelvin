@@ -26,7 +26,7 @@
 #' Beir(1:10)    # defaults to nu.=0
 #' Beir(1:10, nu.=2)
 Beir.default <-
-function(xseq, nu., return.list=TRUE, ...){
+function(xseq, nu.=0, return.list=TRUE, ...){
   require(Bessel)
 	#
 	# Kelvin defined the Kelvin functions bei and ber according to

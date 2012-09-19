@@ -18,6 +18,8 @@
 #' =	J_0(sqrt(2)*(i-1)*x/2)
 #' =	ber(x) + i*bei(x)
 #'
+#' @note a note
+#' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
 #' 
 #' @references \link{http://mathworld.wolfram.com/KelvinFunctions.html}
@@ -26,9 +28,12 @@
 #' 
 #' @docType package
 #' 
-#' @name kelvin
+#' @name kelvin-package
 #' 
-#' @aliases kelvin kelvin-package
+#' @aliases kelvin-package
+#' 
+#' @seealso \code{\link{Kelvin}}, \code{\link{Beir}},
+#' 
 .onLoad <- function(...) { 
 packageStartupMessage("\t>>>>\tkelvin\tSep 2012\t<<<<")
 }

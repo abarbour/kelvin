@@ -2,7 +2,7 @@
 \alias{Beir.default}
 \title{Solutions to the Kelvin differential equations: 'Bei' and 'Ber'}
 \usage{
-  Beir.default(xseq, nu., return.list = TRUE, ...)
+  Beir.default(xseq, nu. = 0, return.list = TRUE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex

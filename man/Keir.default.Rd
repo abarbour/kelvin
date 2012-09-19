@@ -2,7 +2,7 @@
 \alias{Keir.default}
 \title{Solutions to the Kelvin differential equations: 'Kei' and 'Ker'}
 \usage{
-  Keir.default(xseq, nu., nSeq., add.tol = TRUE,
+  Keir.default(xseq, nu. = 0, nSeq. = 1, add.tol = TRUE,
     return.list = FALSE, show.scaling = FALSE, ...)
 }
 \arguments{
