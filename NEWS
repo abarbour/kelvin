@@ -1,3 +1,7 @@
+kelvin 1.1-0 (2012-09-18) ----------------------------------------
+
+* documentation: some improvements to documentation, thanks to **roxygen2**
+
 kelvin 1.0-1 (2012-07-27) ----------------------------------------
 
 * bug fix: scaling was inappropriately applied if nSeq>1, meaning that

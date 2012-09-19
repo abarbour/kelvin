@@ -15,6 +15,9 @@ Previous update: 30-May-2012
 
 +++++++++++++++++++++++++ DEVELOPMENT
 
+[ ]  roxygenize documentation
+***  Kelvin, Keir, Beir, Kei, Ker, Bei, Ber
+***  How to reconcile methods?
 [ ]  plot method?
 [ ]  Add deriviatives: from Abromowitz and Stegun
 [ ]  How do I deal with the fact that Bessel overrides funcamental base::
