@@ -30,5 +30,5 @@
 #' 
 #' @aliases kelvin kelvin-package
 .onLoad <- function(...) { 
-packageStartupMessage("\t>>>>\tkelvin 1.1-0\tSep 2012\t<<<<")
+packageStartupMessage("\t>>>>\tkelvin\tSep 2012\t<<<<")
 }
