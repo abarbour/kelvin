@@ -18,19 +18,24 @@
 #' @return \code{return.list==FALSE} (default): matrix of complex values with columns
 #' representing each order (if \code{nSeq.>1}); otherwise the result is a list with
 #' Real and Imaginary components segregated.
+#' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
+#' 
 #' @references \link{http://mathworld.wolfram.com/KelvinFunctions.html}
+#' 
 #' @keywords Orthogonal functions
 #' @keywords Kelvin functions
-#' @seealso \code{\link{Kelvin}}, \code{\link{Keir}}, \code{\link{Beir}}
+#' 
+#' @seealso \code{\link{Kelvin}}, \code{\link{Kei}}, \code{\link{Ker}}, \code{\link{Beir}}
+#' 
 #' @examples
 #' Keir(1:10)    # defaults to nu.=0, nSeq=1
 #' Keir(1:10,nSeq=2)
 #' Keir(1:10,nSeq=2,return.list=FALSE)
 Keir.default <-
-function(xseq, nu.=0, nSeq.=1, 
+function(xseq, nu., nSeq., 
          add.tol=TRUE, 
-         return.list=TRUE, 
+         return.list=FALSE, 
          show.scaling=FALSE, ...){
   require(Bessel)
 	if (add.tol){

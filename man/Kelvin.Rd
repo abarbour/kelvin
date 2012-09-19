@@ -1,56 +1,30 @@
-\name{Kelvin}
-\alias{Kelvin}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{Kelvin
-%%  ~~function to do ... ~~
+\docType{package}
+\name{kelvin}
+\alias{kelvin}
+\alias{kelvin-package}
+\title{Fundamental and complementary solutions to the Kelvin differential equations}
+\usage{
+  .onLoad(...)
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
-}
-\usage{
-Kelvin(...)
-}
-%- maybe also 'usage' for other objects documented here.
-\arguments{
-  \item{\dots}{
-%%     ~~Describe \code{\dots} here~~
-}
-}
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
-}
-\references{
-%% ~put references to the literature/web site here ~
+  Kelvin defined the Kelvin functions bei and ber according
+  to ber_v(x) + i*bei_v(x) = J_v(x*exp(3*pi*i/4)) =
+  exp(v*pi*i)*J_v(x*exp(-pi*i/4)) =
+  exp(v*pi*i/2)*I_v(x*exp(pi*i/4)) =
+  exp(3*v*pi*i/2)*I_v(x*exp(-3*pi*i/4)) where J_v(x) is a
+  Bessel function of the first kind and I_v(x) is a
+  modified Bessel function of the first kind. These
+  functions satisfy the Kelvin differential equation.
+  Similarly, the functions kei and ker by ker_v(x) +
+  i*kei_v(x) = exp(-v*pi*i/2)*K_v(x*exp(pi*i/4)) where
+  K_v(x) is a modified Bessel function of the second kind.
+  For the special case v=0, J_0(i*sqrt(i)*x) =
+  J_0(sqrt(2)*(i-1)*x/2) = ber(x) + i*bei(x)
 }
 \author{
-%%  ~~who you are~~
+  Andrew Barbour <andy.barbour@gmail.com>
 }
-\note{
-%%  ~~further notes~~
+\references{
+  \link{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (...) 
-UseMethod("Keir")
-}
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

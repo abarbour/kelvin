@@ -13,15 +13,20 @@
 #' @return \code{return.list==FALSE} (default): matrix of complex values with columns
 #' representing each order (if \code{nSeq.>1}); otherwise the result is a list with
 #' Real and Imaginary components segregated.
+#' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
+#' 
 #' @references \link{http://mathworld.wolfram.com/KelvinFunctions.html}
+#' 
 #' @keywords Kelvin functions, Kei, Ker,
-#' @seealso \code{\link{Kelvin}}, \code{\link{Keir}}, \code{\link{Beir}}
+#' 
+#' @seealso \code{\link{Kelvin}}, \code{\link{Bei}}, \code{\link{Ber}}
+#' 
 #' @examples
 #' Beir(1:10)    # defaults to nu.=0
-#' Beir(1:10,nu=2)
+#' Beir(1:10, nu.=2)
 Beir.default <-
-function(xseq, nu.=0, return.list=TRUE, ...){
+function(xseq, nu., return.list=TRUE, ...){
   require(Bessel)
 	#
 	# Kelvin defined the Kelvin functions bei and ber according to

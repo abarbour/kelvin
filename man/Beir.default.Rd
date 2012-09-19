@@ -2,7 +2,7 @@
 \alias{Beir.default}
 \title{Solutions to the Kelvin differential equations: 'Bei' and 'Ber'}
 \usage{
-  Beir.default(xseq, nu. = 0, return.list = TRUE, ...)
+  Beir.default(xseq, nu., return.list = TRUE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex
@@ -31,7 +31,7 @@
 }
 \examples{
 Beir(1:10)    # defaults to nu.=0
-Beir(1:10,nu=2)
+Beir(1:10, nu.=2)
 }
 \author{
   Andrew Barbour <andy.barbour@gmail.com>
@@ -40,8 +40,8 @@ Beir(1:10,nu=2)
   \link{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Kelvin}}, \code{\link{Keir}},
-  \code{\link{Beir}}
+  \code{\link{Kelvin}}, \code{\link{Bei}},
+  \code{\link{Ber}}
 }
 \keyword{Kei,}
 \keyword{Kelvin}

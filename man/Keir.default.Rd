@@ -2,8 +2,8 @@
 \alias{Keir.default}
 \title{Solutions to the Kelvin differential equations: 'Kei' and 'Ker'}
 \usage{
-  Keir.default(xseq, nu. = 0, nSeq. = 1, add.tol = TRUE,
-    return.list = TRUE, show.scaling = FALSE, ...)
+  Keir.default(xseq, nu., nSeq., add.tol = TRUE,
+    return.list = FALSE, show.scaling = FALSE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex
@@ -50,8 +50,8 @@ Keir(1:10,nSeq=2,return.list=FALSE)
   \link{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Kelvin}}, \code{\link{Keir}},
-  \code{\link{Beir}}
+  \code{\link{Kelvin}}, \code{\link{Kei}},
+  \code{\link{Ker}}, \code{\link{Beir}}
 }
 \keyword{Kelvin}
 \keyword{Orthogonal}
