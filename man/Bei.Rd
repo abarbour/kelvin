@@ -4,6 +4,9 @@
 \usage{
   Bei(...)
 }
+\arguments{
+  \item{...}{arguments passed to \code{\link{Beir}}}
+}
 \description{
   Uses \code{\link{Beir}} and extracts imaginary component,
   i.e. 'Bei'
@@ -15,7 +18,7 @@ Bei(1:10)
   Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-  \link{http://mathworld.wolfram.com/Bei.html}
+  \url{http://mathworld.wolfram.com/Bei.html}
 }
 \seealso{
   \code{\link{Beir}}, \code{\link{Ber}}

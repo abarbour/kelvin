@@ -1,8 +1,9 @@
+.git
 .git/*
 .gitignore
 Read-and-delete-me
 TODO
 ^\.Rproj\.user$
 kelvin.Rproj
-*.Rout
+Rout$
 .Rhistory

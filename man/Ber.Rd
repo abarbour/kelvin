@@ -4,6 +4,9 @@
 \usage{
   Ber(...)
 }
+\arguments{
+  \item{...}{arguments passed to \code{\link{Beir}}}
+}
 \description{
   Uses \code{\link{Beir}} and extracts real component, i.e.
   'Ber'
@@ -15,7 +18,7 @@ Ber(1:10)
   Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-  \link{http://mathworld.wolfram.com/Ber.html}
+  \url{http://mathworld.wolfram.com/Ber.html}
 }
 \seealso{
   \code{\link{Beir}}, \code{\link{Bei}}

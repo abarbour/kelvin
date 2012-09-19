@@ -2,9 +2,11 @@
 #' 
 #' Uses \code{\link{Beir}} and extracts imaginary component, i.e. 'Bei'
 #' 
+#' @param ... arguments passed to \code{\link{Beir}}
+#' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
 #' 
-#' @references \link{http://mathworld.wolfram.com/Bei.html}
+#' @references \url{http://mathworld.wolfram.com/Bei.html}
 #' 
 #' @seealso \code{\link{Beir}}, \code{\link{Ber}}
 #' 

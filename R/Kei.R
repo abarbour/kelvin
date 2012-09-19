@@ -1,16 +1,18 @@
 #' Wrapper function to return Kei
 #' 
-#' Uses \code{\link{Kelvin}} and extracts imaginary component, i.e. 'Kei'
+#' Uses \code{\link{Keir}} and extracts imaginary component, i.e. 'Kei'
+#' 
+#' @param ... arguments passed to \code{\link{Keir}}
 #' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
 #' 
-#' @references \link{http://mathworld.wolfram.com/Kei.html}
+#' @references \url{http://mathworld.wolfram.com/Kei.html}
 #' 
-#' @seealso \code{\link{Kelvin}}, \code{\link{Ker}}
+#' @seealso \code{\link{Keir}}, \code{\link{Ker}}
 #' 
 #' @export
 #' 
 #' @examples
 #' Kei(1:10)
 Kei <-
-function(...) Kelvin(..., return.list=TRUE)$kei
+function(...) Keir(..., return.list=TRUE)$kei

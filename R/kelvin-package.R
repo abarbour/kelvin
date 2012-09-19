@@ -17,12 +17,10 @@
 #' J_0(i*sqrt(i)*x)
 #' =	J_0(sqrt(2)*(i-1)*x/2)
 #' =	ber(x) + i*bei(x)
-#'
-#' @note a note
 #' 
 #' @author Andrew Barbour <andy.barbour@@gmail.com>
 #' 
-#' @references \link{http://mathworld.wolfram.com/KelvinFunctions.html}
+#' @references \url{http://mathworld.wolfram.com/KelvinFunctions.html}
 #' 
 #' @import Bessel
 #' 
@@ -30,10 +28,11 @@
 #' 
 #' @name kelvin-package
 #' 
-#' @aliases kelvin-package
+#' @aliases kelvin,kelvin-package
 #' 
-#' @seealso \code{\link{Kelvin}}, \code{\link{Beir}},
+#' @seealso \code{\link{Keir}}, \code{\link{Beir}}
 #' 
-.onLoad <- function(...) { 
-packageStartupMessage("\t>>>>\tkelvin\tSep 2012\t<<<<")
-}
+NULL
+# .onLoad <- function() { 
+# packageStartupMessage("\t>>>>\tkelvin\tSep 2012\t<<<<")
+# }

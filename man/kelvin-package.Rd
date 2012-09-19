@@ -1,10 +1,8 @@
 \docType{package}
 \name{kelvin-package}
+\alias{kelvin,kelvin-package}
 \alias{kelvin-package}
 \title{Fundamental and complementary solutions to the Kelvin differential equations}
-\usage{
-  .onLoad(...)
-}
 \description{
   Kelvin defined the Kelvin functions bei and ber according
   to ber_v(x) + i*bei_v(x) = J_v(x*exp(3*pi*i/4)) =
@@ -20,16 +18,13 @@
   For the special case v=0, J_0(i*sqrt(i)*x) =
   J_0(sqrt(2)*(i-1)*x/2) = ber(x) + i*bei(x)
 }
-\note{
-  a note
-}
 \author{
   Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-  \link{http://mathworld.wolfram.com/KelvinFunctions.html}
+  \url{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Kelvin}}, \code{\link{Beir}},
+  \code{\link{Keir}}, \code{\link{Beir}}
 }
 

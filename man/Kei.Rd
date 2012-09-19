@@ -4,9 +4,12 @@
 \usage{
   Kei(...)
 }
+\arguments{
+  \item{...}{arguments passed to \code{\link{Keir}}}
+}
 \description{
-  Uses \code{\link{Kelvin}} and extracts imaginary
-  component, i.e. 'Kei'
+  Uses \code{\link{Keir}} and extracts imaginary component,
+  i.e. 'Kei'
 }
 \examples{
 Kei(1:10)
@@ -15,9 +18,9 @@ Kei(1:10)
   Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-  \link{http://mathworld.wolfram.com/Kei.html}
+  \url{http://mathworld.wolfram.com/Kei.html}
 }
 \seealso{
-  \code{\link{Kelvin}}, \code{\link{Ker}}
+  \code{\link{Keir}}, \code{\link{Ker}}
 }
 

@@ -1,16 +1,15 @@
-\name{Kelvin}
+\name{Keir}
 \alias{Keir}
-\alias{Kelvin}
 \title{Solutions to the Kelvin differential equations: 'Kei' and 'Ker'}
 \usage{
-  Kelvin(xseq, nu. = 0, nSeq. = 1, add.tol = TRUE,
+  Keir(xseq, nu. = 0, nSeq. = 1, add.tol = TRUE,
     return.list = TRUE, show.scaling = FALSE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex
   solution at}
 
-  \item{nu}{scalar; controls the order of the Bessel
+  \item{nu.}{scalar; controls the order of the Bessel
   functions}
 
   \item{nSeq.}{positive integer; if > 1, computes the
@@ -26,6 +25,8 @@
 
   \item{show.scaling}{boolean; Should the normalization
   values be given as a message?}
+
+  \item{...}{additional parameters (currently unused)}
 }
 \value{
   \code{return.list==FALSE} (default): matrix of complex
@@ -37,24 +38,24 @@
   This function calculates the complex solution to the
   Kelvin differential equations using modified Bessel
   function of the second kind, specifically that which is
-  produced by \code{\link{Bessel::BesselK}}.
+  produced by \code{Bessel::BesselK}.
 }
 \examples{
-Kelvin(1:10)    # defaults to nu.=0, nSeq=1
-Kelvin(1:10,nSeq=2)
-Kelvin(1:10,nSeq=2,return.list=FALSE)
+Keir(1:10)    # defaults to nu.=0, nSeq=1
+Keir(1:10,nSeq=2)
+Keir(1:10,nSeq=2,return.list=FALSE)
 }
 \author{
   Andrew Barbour <andy.barbour@gmail.com>
 }
 \references{
-  \link{http://mathworld.wolfram.com/KelvinFunctions.html}
+  \url{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Kelvin}}, \code{\link{Beir}},
-  \code{\link{Kei}}, \code{\link{Ker}}
+  \code{\link{Ker}}, \code{\link{Kei}}
 }
+\keyword{"Orthogonal}
 \keyword{Kelvin}
-\keyword{Orthogonal}
-\keyword{functions}
+\keyword{functions"}
+\keyword{functions","complementary}
 
