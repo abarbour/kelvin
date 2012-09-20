@@ -3,7 +3,7 @@ Type: Package
 Title: Calculate solutions to Kelvin differential equation using Kelvin
     functions.
 Version: 1.1-0
-Date: 2012-09-18
+Date: 2012-09-20
 Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
 Description: Calculate analytic solutions to the Kelvin
@@ -15,7 +15,7 @@ Depends:
     R (>= 2.10.1),
     Bessel (>= 0.5-4)
 License: GPL (>= 2)
-URL: https://github.com/abarbour/kelvin
+URL: http://abarbour.github.com/kelvin/
 LazyLoad: TRUE
 Collate:
     'kelvin-package.R'
