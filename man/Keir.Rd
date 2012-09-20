@@ -1,21 +1,27 @@
+\docType{methods}
 \name{Keir}
 \alias{Keir}
+\alias{Keir.default}
 \title{Solutions to the Kelvin differential equations: 'Kei' and 'Ker'}
 \usage{
   Keir(xseq, nu. = 0, nSeq. = 1, add.tol = TRUE,
-    return.list = TRUE, show.scaling = FALSE, ...)
+    return.list = FALSE, show.scaling = FALSE, ...)
+
+  \method{Keir}{default} (xseq, nu. = 0, nSeq. = 1,
+    add.tol = TRUE, return.list = FALSE,
+    show.scaling = FALSE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex
   solution at}
 
-  \item{nu.}{scalar; controls the order of the Bessel
-  functions}
+  \item{nu.}{scalar; value of \eqn{\nu} in
+  \eqn{\mathcal{K}_\nu}{Kei, and Ker}}
 
-  \item{nSeq.}{positive integer; if > 1, computes the
-  result for a whole sequence of nu values; if nu >= 0,nu,
-  nu+1, ..., nu+nSeq-1, if nu < 0, nu, nu-1, ...,
-  nu-nSeq+1.}
+  \item{nSeq.}{positive integer; if \eqn{nSeq > 1},
+  computes the result for a sequence of values; if \eqn{\nu
+  >= 0: \nu, \nu+1, \cdots, \nu+nSeq-1}, if \eqn{\nu < 0:
+  \nu, \nu-1, \cdots, \nu-nSeq+1}.}
 
   \item{add.tol}{boolean; fudge factor to prevent an error
   for zero-values}
@@ -29,10 +35,12 @@
   \item{...}{additional parameters (currently unused)}
 }
 \value{
-  \code{return.list==FALSE} (default): matrix of complex
-  values with columns representing each order (if
-  \code{nSeq.>1}); otherwise the result is a list with Real
-  and Imaginary components segregated.
+  If \code{return.list==FALSE} (default), a complex matrix
+  with as many columns as using \code{nSeq.} creates.
+  Otherwise the result is a list with matrices for Real and
+  Imaginary components.
+
+  \code{NULL}
 }
 \description{
   This function calculates the complex solution to the

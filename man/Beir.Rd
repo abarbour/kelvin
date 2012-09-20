@@ -1,15 +1,20 @@
+\docType{methods}
 \name{Beir}
 \alias{Beir}
+\alias{Beir.default}
 \title{Solutions to the Kelvin differential equations: 'Bei' and 'Ber'}
 \usage{
-  Beir(xseq, nu. = 0, return.list = TRUE, ...)
+  Beir(xseq, nu. = 0, return.list = FALSE, ...)
+
+  \method{Beir}{default} (xseq, nu. = 0,
+    return.list = FALSE, ...)
 }
 \arguments{
   \item{xseq}{vector; values to evaluate the complex
   solution at}
 
-  \item{nu.}{scalar; controls the order of the Bessel
-  functions}
+  \item{nu.}{scalar; value of \eqn{\nu} in
+  \eqn{\mathcal{B}_\nu}{Bei, and Ber}}
 
   \item{return.list}{boolean; Should the result be a list
   instead of matrix?}
@@ -17,10 +22,12 @@
   \item{...}{arguments passed to \code{Bessel::BesselJ}}
 }
 \value{
-  \code{return.list==FALSE} (default): matrix of complex
-  values with columns representing each order (if
-  \code{nSeq.>1}); otherwise the result is a list with Real
-  and Imaginary components segregated.
+  If \code{return.list==FALSE} (default), a complex matrix
+  with as many columns as using \code{nSeq.} creates.
+  Otherwise the result is a list with matrices for Real and
+  Imaginary components.
+
+  \code{NULL}
 }
 \description{
   This function calculates the complex solution to the

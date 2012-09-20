@@ -1,24 +1,15 @@
-README
-/Users/barbour/R/develop/kelvin.pkg/kelvin
-Creation date:	Wed May 30 16:53:10 UTC 2012
+# KELVIN
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Calculation of solutions to the Kelvin Differential Equation
+using functions written for `R`, namely
+`Bessel::BesselJ`  and  `Bessel::BesselK`, used to calculate
+the appropriate Kelvin Functions.
 
 
-Development of R-package for calculation of Kelvin functions, which are the
-solution to Kelvin Differential Equation.
+## Background information
 
-Uses Bessel::BesselJ and Bessel::BesselK
-Kelvin Functions
-
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-FROM	http://mathworld.wolfram.com/KelvinFunctions.html
+*The following is taken from*  http://mathworld.wolfram.com/KelvinFunctions.html
 
 Kelvin defined the Kelvin functions bei and ber according to
 

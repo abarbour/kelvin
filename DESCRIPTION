@@ -1,14 +1,14 @@
 Package: kelvin
 Type: Package
-Title: A set of functions to calculate solutions to the Kelvin
-    Differential Equations, namely the primary (Bei, Ber) and
-    complementary (Kei, Ker) solutions.
+Title: Calculate solutions to Kelvin differential equation using Kelvin
+    functions.
 Version: 1.1-0
 Date: 2012-09-18
 Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
-Description: Wrapper functions to calculate Kelvin functions using Bessel
-    functions.
+Description: Calculate analytic solutions to the Kelvin
+    differential equation, namely the primary (Bei, Ber) and complementary
+    (Kei, Ker) Kelvin functions.
 Imports:
     Bessel
 Depends:
@@ -18,12 +18,10 @@ License: GPL (>= 2)
 URL: https://github.com/abarbour/kelvin
 LazyLoad: TRUE
 Collate:
-    'Bei.R'
-    'Beir.R'
-    'Beir.default.R'
-    'Ber.R'
-    'Kei.R'
-    'Keir.default.R'
-    'Ker.R'
     'kelvin-package.R'
+    'Beir.R'
+    'Bei.R'
+    'Ber.R'
     'Keir.R'
+    'Kei.R'
+    'Ker.R'
