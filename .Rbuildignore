@@ -1,7 +1,14 @@
-.git*
+.git
+.git/*
+.gitignore
 Read-and-delete-me
 TODO
 ^\.Rproj\.user$
 kelvin.Rproj
+<<<<<<< HEAD
 $\.Rout
 Rplots.pdf
+=======
+Rout$
+.Rhistory
+>>>>>>> cdbb0661b2483035c8924894e3e9fcd3ed6d2b7e
