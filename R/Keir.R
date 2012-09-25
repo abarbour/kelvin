@@ -72,6 +72,7 @@ Keir.default <- function(xseq, nu.=0, nSeq.=1, add.tol=TRUE, return.list=FALSE, 
   if (show.scaling) {message(sprintf("\t>>>>\tnu=%i\tscaling:\t%s\n", Nu., Bsc))}
   #
   Bsl <- Bessel::BesselK(BessX, nu=nu., nSeq=nSeq.)
+  #Bsl <- BesselK(BessX, nu=nu., nSeq=nSeq.)
   nr. <- length(as.vector(BessX))
   stopifnot(!is.null(nr.))
   #

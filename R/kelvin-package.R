@@ -59,6 +59,5 @@
 #'  
 #' @seealso \code{\link{Keir}}, \code{\link{Beir}}
 NULL
-# .onLoad <- function() { 
-# packageStartupMessage("\t>>>>\tkelvin\tSep 2012\t<<<<")
-# }
+# .onLoad moved to Kelvin.R
+#

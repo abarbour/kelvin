@@ -39,6 +39,7 @@ Beir <- function(xseq, nu.=0, return.list=FALSE, ...) UseMethod("Beir")
 Beir.default <- function(xseq, nu.=0, return.list=FALSE, ...){
   require(Bessel)
   toret <- Bessel::BesselJ(xseq*exp(3*pi*(1i)/4), nu=nu., ...)
+  #toret <- BesselJ(xseq*exp(3*pi*(1i)/4), nu=nu., ...)
   if (return.list){
     toret <- list(bei=Im(toret), ber=Re(toret))
   }
