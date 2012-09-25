@@ -46,7 +46,7 @@ Beir(1:10, nu.=2)
   \url{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Ber}}, \code{\link{Bei}}
+  \code{\link{Ber}}, \code{\link{Bei}}, \code{\link{Keir}}
 }
 \keyword{"Kelvin}
 \keyword{"Orthogonal}

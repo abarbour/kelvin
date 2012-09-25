@@ -29,7 +29,7 @@
 #' 
 #' @keywords "Orthogonal functions","complementary Kelvin functions"
 #' 
-#' @seealso \code{\link{Ker}}, \code{\link{Kei}}
+#' @seealso \code{\link{Ker}}, \code{\link{Kei}}, \code{\link{Beir}}
 #' 
 #' @examples
 #' Keir(1:10)    # defaults to nu.=0, nSeq=1

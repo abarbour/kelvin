@@ -24,7 +24,7 @@
 #' 
 #' @keywords "Orthogonal functions", "Kelvin functions"
 #' 
-#' @seealso \code{\link{Ber}}, \code{\link{Bei}}
+#' @seealso \code{\link{Ber}}, \code{\link{Bei}}, \code{\link{Keir}}
 #' 
 #' @examples
 #' Beir(1:10)    # defaults to nu.=0
