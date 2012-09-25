@@ -3,3 +3,7 @@ Read-and-delete-me
 kelvin.Rproj
 .RData
 .Rhistory
+.Rbuildignore
+Rplots.pdf
+*.Rout
+.gitignore
