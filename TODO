@@ -1,26 +1,16 @@
-Last updated: 25-Sep-2012
+Last updated: 26-Sep-2012
 +++++++++++++++++++++++++ PACKAGING
 
-[X] * Edit the help file skeletons in 'man', possibly combining help files
-  for multiple functions.
-[X] * Edit the exports in 'NAMESPACE', and add necessary imports.
-[NA] * Put any C/C++/Fortran code in 'src'.
-[NA] * If you have compiled code, add a useDynLib() directive to
-  'NAMESPACE'.
-[X] * Run R CMD build to build the package tarball.
-[X] * Run R CMD check to check the package tarball.
-
-[ ] Read "Writing R Extensions" for more information.
+[ ]  bump version to 1.1-1
+[ ]  next update: git tag 1.1-1
 
 +++++++++++++++++++++++++ DEVELOPMENT
 
-[X]  roxygenize documentation
-***  Kelvin, Keir, Beir, Kei, Ker, Bei, Ber
-***  How to reconcile methods?
-[NA] plot method? No. Keep it simple.
 [ ]  Add deriviatives: from Abromowitz and Stegun
 [ ]  How do I deal with the fact that Bessel overrides fundamental base::
-functions like cbind, %*%, etc.? Could this post help?
-(http://stackoverflow.com/questions/10947159/writing-robust-r-code-namespaces-masking-and-using-the-operator)
+     functions like cbind, %*%, etc.? Could this post help?
+     http://stackoverflow.com/questions/10947159/writing-robust-r-code-namespaces-masking-and-using-the-operator
+*** tried making Bessel not a DEPEND, but it doesn't export BesselJ/K to its namespace, so
+    CMD CHECK failed
 
 +++++++++++++++++++++++++ 
