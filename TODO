@@ -6,6 +6,7 @@ Last updated: 26-Sep-2012
 
 +++++++++++++++++++++++++ DEVELOPMENT
 
+[ ]  Kelvin to namespace
 [ ]  Add deriviatives: from Abromowitz and Stegun
 [ ]  How do I deal with the fact that Bessel overrides fundamental base::
      functions like cbind, %*%, etc.? Could this post help?
