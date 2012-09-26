@@ -8,7 +8,7 @@ Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
 Description: Calculate analytic solutions to the Kelvin
     differential equation, namely the primary (Bei, Ber) and complementary
-    (Kei, Ker) Kelvin functions.
+    (Kei, Ker) complex Kelvin functions.
 Depends:
     R (>= 2.10.1),
     Bessel (>= 0.5-4)
