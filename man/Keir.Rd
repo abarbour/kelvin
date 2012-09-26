@@ -60,7 +60,7 @@ Keir(1:10,nSeq=2,return.list=FALSE)
   \url{http://mathworld.wolfram.com/KelvinFunctions.html}
 }
 \seealso{
-  \code{\link{Ker}}, \code{\link{Kei}}
+  \code{\link{Ker}}, \code{\link{Kei}}, \code{\link{Beir}}
 }
 \keyword{"Orthogonal}
 \keyword{Kelvin}

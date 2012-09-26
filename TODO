@@ -1,25 +1,25 @@
-Last updated: 19-Sep-2012
+Last updated: 25-Sep-2012
 +++++++++++++++++++++++++ PACKAGING
 
-[ ] * Edit the help file skeletons in 'man', possibly combining help files
+[X] * Edit the help file skeletons in 'man', possibly combining help files
   for multiple functions.
-[ ] * Edit the exports in 'NAMESPACE', and add necessary imports.
+[X] * Edit the exports in 'NAMESPACE', and add necessary imports.
 [NA] * Put any C/C++/Fortran code in 'src'.
 [NA] * If you have compiled code, add a useDynLib() directive to
   'NAMESPACE'.
-[ ] * Run R CMD build to build the package tarball.
-[ ] * Run R CMD check to check the package tarball.
+[X] * Run R CMD build to build the package tarball.
+[X] * Run R CMD check to check the package tarball.
 
 [ ] Read "Writing R Extensions" for more information.
 
 +++++++++++++++++++++++++ DEVELOPMENT
 
-[ ]  roxygenize documentation
+[X]  roxygenize documentation
 ***  Kelvin, Keir, Beir, Kei, Ker, Bei, Ber
 ***  How to reconcile methods?
-[ ]  plot method?
+[NA] plot method? No. Keep it simple.
 [ ]  Add deriviatives: from Abromowitz and Stegun
-[ ]  How do I deal with the fact that Bessel overrides funcamental base::
+[ ]  How do I deal with the fact that Bessel overrides fundamental base::
 functions like cbind, %*%, etc.? Could this post help?
 (http://stackoverflow.com/questions/10947159/writing-robust-r-code-namespaces-masking-and-using-the-operator)
 

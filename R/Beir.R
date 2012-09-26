@@ -24,7 +24,7 @@
 #' 
 #' @keywords "Orthogonal functions", "Kelvin functions"
 #' 
-#' @seealso \code{\link{Ber}}, \code{\link{Bei}}
+#' @seealso \code{\link{Ber}}, \code{\link{Bei}}, \code{\link{Keir}}
 #' 
 #' @examples
 #' Beir(1:10)    # defaults to nu.=0
@@ -39,6 +39,7 @@ Beir <- function(xseq, nu.=0, return.list=FALSE, ...) UseMethod("Beir")
 Beir.default <- function(xseq, nu.=0, return.list=FALSE, ...){
   require(Bessel)
   toret <- Bessel::BesselJ(xseq*exp(3*pi*(1i)/4), nu=nu., ...)
+  #toret <- BesselJ(xseq*exp(3*pi*(1i)/4), nu=nu., ...)
   if (return.list){
     toret <- list(bei=Im(toret), ber=Re(toret))
   }

@@ -3,17 +3,17 @@ Type: Package
 Title: Calculate solutions to Kelvin differential equation using Kelvin
     functions.
 Version: 1.1-0
-Date: 2012-09-20
+Date: 2012-09-25
 Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
 Description: Calculate analytic solutions to the Kelvin
     differential equation, namely the primary (Bei, Ber) and complementary
     (Kei, Ker) Kelvin functions.
-Imports:
-    Bessel
 Depends:
     R (>= 2.10.1),
     Bessel (>= 0.5-4)
+Imports:
+    Bessel
 License: GPL (>= 2)
 URL: http://abarbour.github.com/kelvin/
 LazyLoad: TRUE
@@ -25,3 +25,4 @@ Collate:
     'Keir.R'
     'Kei.R'
     'Ker.R'
+    'Kelvin.R'

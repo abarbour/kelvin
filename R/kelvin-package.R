@@ -59,7 +59,12 @@
 #'  
 #' @seealso \code{\link{Keir}}, \code{\link{Beir}}
 NULL
+<<<<<<< HEAD
 .onLoad <- function(...) { 
 packageStartupMessage("Loaded:\tkelvin 1.1-0 (Sep 2012)")
 }
 #
+=======
+# .onLoad moved to Kelvin.R
+#
+>>>>>>> 0c615c1a1a3d71cbad7f87506fa9775b8e3e0a54
