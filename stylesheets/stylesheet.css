@@ -159,13 +159,10 @@ a.button span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-cran span {
-  background: transparent url(http://developer.r-project.org/Logo/Rlogo-5.png) 12px 20% no-repeat;
+  background: transparent url(http://developer.r-project.org/Logo/Rlogo-5.png) 6px 50% no-repeat;
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 14px;
 }
 
 code, pre {
