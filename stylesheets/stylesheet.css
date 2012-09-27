@@ -149,7 +149,7 @@ a.button:hover {
 a.button span {
   padding-left: 50px;
   display: block;
-  height: 23px;
+  height: 21px;
 }
 
 #download-zip span {
@@ -157,6 +157,9 @@ a.button span {
 }
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
+}
+#view-on-cran span {
+  background: transparent url(http://developer.r-project.org/Logo/Rlogo-5.png) 12px 50% no-repeat;
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
