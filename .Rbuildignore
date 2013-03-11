@@ -9,3 +9,4 @@ $\.Rout
 Rplots.pdf
 Rout$
 .Rhistory
+^.*\.Rproj$
