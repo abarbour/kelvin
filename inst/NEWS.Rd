@@ -13,7 +13,7 @@
     \item \code{Kelvin} is now an alias, rather than a methods pointer.
     \item \code{.onAttach} message was fixed.
     \item Some rephrasing in the description.
-    \item NEWS is not properly marked-down, and in the inst/ directory.
+    \item NEWS is now in Rd format in the inst/ directory.
   }
 }
 \section{CHANGES IN kelvin VERSION 1.1-0 (2012-09-26)}{
