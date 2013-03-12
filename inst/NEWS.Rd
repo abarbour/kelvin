@@ -8,6 +8,12 @@
 \name{kelvin}
 \title{News for package 'kelvin'}
 \encoding{UTF-8}
+
+\section{CHANGES IN kelvin VERSION 1.2-1 (2013-03-12)}{
+  \itemize{
+    \item Empty \code{.Last.lib} function removed.
+  }
+}
 \section{CHANGES IN kelvin VERSION 1.2-0 (2013-03-11)}{
   \itemize{
     \item \code{Kelvin} is now an alias, rather than a methods pointer.
