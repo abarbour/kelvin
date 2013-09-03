@@ -1,8 +1,10 @@
-Last updated: 26-Sep-2012
+Last updated: 03-Sep-2013
+
 +++++++++++++++++++++++++ PACKAGING
 
-[ ]  bump version to 1.1-1
-[ ]  next update: git tag 1.1-1
+[ ]  bump version (last CRAN: )
+[ ]  tag git: latest from `git tag -l`:
+	v1.2-0
 
 +++++++++++++++++++++++++ DEVELOPMENT
 
