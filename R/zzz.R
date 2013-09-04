@@ -10,3 +10,17 @@
 # .Last.lib <- function(...){
 #   NULL
 # }
+#
+# 4-Sep-13:  
+# Prof Brian Ripley <ripley@stats.ox.ac.uk>
+#   10:44 PM (11 hours ago)
+# 
+# to me, CRAN 
+# 
+# Checking with R-devel (see the policies) says
+# 
+# * checking dependencies in R code ... NOTE
+# ‘:::’ call which should be ‘::’: ‘utils:::packageVersion’
+# See the note in ?`:::` about the use of this operator.
+# 
+# Please fix.
