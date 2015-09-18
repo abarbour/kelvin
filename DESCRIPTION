@@ -8,7 +8,7 @@ Author: Andrew J Barbour
 Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
 Description: Uses Bessel functions to calculate the 
   fundamental and complementary analytic solutions to the
-  Kelvin differential equation
+  Kelvin differential equation.
 Depends:
     R (>= 2.10.1)
 Imports:

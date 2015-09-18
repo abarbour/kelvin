@@ -42,6 +42,7 @@ Beir <- function(x, ...) UseMethod("Beir")
 #' @export
 Beir.default <- function(x, nu.=0, nSeq.=1, return.list=FALSE, ...){
   bess <- Bessel::BesselJ(x * exp(3 * pi * complex(real=0, imaginary = 1) / 4), nu=nu., nSeq=nSeq., ...)
+  bess <- as.matrix(bess)
   if (return.list){
     bess <- list(bei=Im(bess), ber=Re(bess))
   }
