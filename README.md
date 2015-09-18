@@ -1,15 +1,19 @@
-# KELVIN
+# kelvin [![Travis-CI Build Status](https://travis-ci.org/abarbour/kelvin.svg?branch=master)](https://travis-ci.org/abarbour/kelvin) [![License](http://img.shields.io/badge/license-GPL-lightgrey.svg)](http://www.gnu.org/licenses/gpl-2.0.html) [![Downloads](http://cranlogs.r-pkg.org/badges/kelvin?color=lightgrey)](http://www.r-pkg.org/pkg/kelvin)
 
+--------
 
+Solutions to the the Kelvin differential equation in R
+
+by Andrew J Barbour
+
+--------
 Calculation of solutions to the Kelvin Differential Equation
-using functions written for `R`, namely
-`Bessel::BesselJ`  and  `Bessel::BesselK`, used to calculate
-the appropriate Kelvin Functions.
-
+using Bessel functions namely
+`BesselJ`  and  `BesselK` from the [Bessel package](https://cran.r-project.org/package=Bessel).
 
 ## Background information
 
-*The following is taken from*  http://mathworld.wolfram.com/KelvinFunctions.html
+*The following is taken from [Wolfram](http://mathworld.wolfram.com/KelvinFunctions.html):*
 
 Kelvin defined the Kelvin functions bei and ber according to
 

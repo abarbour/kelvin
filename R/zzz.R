@@ -1,8 +1,9 @@
 #
 .onAttach <- function(...) { 
+  pack <- 'kelvin'
   packageStartupMessage(
-    sprintf("Loaded kelvin (%s) -- Solutions to the Kelvin differential equation.",
-            utils::packageVersion("kelvin")))
+    sprintf("Loaded %s (%s) -- Solutions to the Kelvin differential equation", pack, utils::packageVersion(pack))
+  )
 }
 # CRAN check (3.0.0):
 # * checking R code for possible problems ... NOTE
