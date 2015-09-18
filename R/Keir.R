@@ -55,7 +55,7 @@ Keir.default <- function(x, nu.=0, nSeq.=1, add.tol=TRUE, return.list=FALSE, sho
       x[zero.inds] <- tol
     }
   } else {
-    stopifnot(!(0 %in% x))
+    if (0 %in% x) stop("zeros in 'x'")
   }
   #
   BessX <- x * exp(pi * complex(real=0, imaginary = 1) / 4)

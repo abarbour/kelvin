@@ -22,8 +22,9 @@ test_that("Primary function works properly",{
 
 test_that("Primary function options work properly",{
   expect_message(Keir(x, show.scaling = TRUE))
-  expect_warning(k0 <- Keir(c(0,x), add.tol = TRUE))
-  expect_warning(k0.l <- Keir(c(0,x), add.tol = TRUE, return.list = TRUE))
+  expect_error(Keir(c(0,x), add.tol = FALSE))
+  expect_warning(k0 <- Keir(c(0,x)))
+  expect_warning(k0.l <- Keir(c(0,x), return.list = TRUE))
   expect_null(names(k0))
   expect_equal(names(k0.l), c('kei','ker','zero.indices'))
 })
