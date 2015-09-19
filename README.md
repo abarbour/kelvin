@@ -1,4 +1,4 @@
-# kelvin [![Build Status](https://travis-ci.org/abarbour/kelvin.svg?branch=master)](https://travis-ci.org/abarbour/kelvin) [![Code Coverage](http://codecov.io/github/abarbour/kelvin/coverage.svg?branch=master)](http://codecov.io/github/abarbour/psd?branch=master) [![License](http://img.shields.io/badge/license-GPL-lightgrey.svg)](http://www.gnu.org/licenses/gpl-2.0.html) [![Downloads](http://cranlogs.r-pkg.org/badges/kelvin?color=lightgrey)](http://www.r-pkg.org/pkg/kelvin)
+# kelvin [![Build Status](https://travis-ci.org/abarbour/kelvin.svg)](https://travis-ci.org/abarbour/kelvin) [![Code Coverage](http://codecov.io/github/abarbour/kelvin/coverage.svg)](http://codecov.io/github/abarbour/kelvin) [![License](http://img.shields.io/badge/license-GPL-lightgrey.svg)](http://www.gnu.org/licenses/gpl-2.0.html) [![Downloads](http://cranlogs.r-pkg.org/badges/kelvin?color=lightgrey)](http://www.r-pkg.org/pkg/kelvin)
 
 --------
 
