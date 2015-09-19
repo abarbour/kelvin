@@ -16,3 +16,5 @@ Rout$
 ^\.travis\.yml$
 
 ^revdep$
+
+^vignettes/figure$
