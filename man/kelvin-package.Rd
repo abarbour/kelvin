@@ -2,8 +2,8 @@
 % Please edit documentation in R/kelvin-package.R
 \docType{package}
 \name{kelvin-package}
-\alias{kelvin}
 \alias{kelvin-package}
+\alias{kelvin}
 \title{Fundamental and equivalent solutions to the Kelvin differential equation
 using Bessel functions}
 \description{
@@ -49,9 +49,6 @@ which has the set of solutions:
 This package has functions to calculate 
 \eqn{\mathcal{B}_\nu} and \eqn{\mathcal{K}_\nu}.
 }
-\author{
-Andrew Barbour <andy.barbour@gmail.com>
-}
 \references{
 Abramowitz, M. and Stegun, I. A. (Eds.). "Kelvin Functions." 
 \eqn{\S 9.9} in Handbook of Mathematical Functions with Formulas, Graphs, 
@@ -66,4 +63,6 @@ Fundamental solution: \code{\link{Beir}}
 
 Equivalent solution: \code{\link{Keir}}
 }
-
+\author{
+Andrew Barbour <andy.barbour@gmail.com>
+}
