@@ -26,11 +26,11 @@ Ker(...)
 \arguments{
 \item{x}{numeric; values to evaluate the complex solution at}
 
-\item{...}{additional arguments passed to \code{\link[Bessel]{BesselK}} or \code{\link{Keir}}}
+\item{...}{additional arguments passed to \code{\link{BesselK}} or \code{\link{Keir}}}
 
 \item{nu.}{numeric; value of \eqn{\nu} in \eqn{\mathcal{K}_\nu}{Kei,Ker} solutions}
 
-\item{nSeq.}{positive integer; equivalent to \code{nSeq} in \code{\link[Bessel]{BesselK}}}
+\item{nSeq.}{positive integer; equivalent to \code{nSeq} in \code{\link{BesselK}}}
 
 \item{add.tol}{logical; Should a fudge factor be added to prevent an error for zero-values?}
 
@@ -47,7 +47,7 @@ Real and Imaginary components.
 \description{
 This function calculates the complex solution to the Kelvin differential
 equation using modified Bessel functions of the \emph{second kind}, specifically
-those produced by \code{\link[Bessel]{BesselK}}.
+those produced by \code{\link{BesselK}}.
 }
 \details{
 \code{\link{Ker}} and \code{\link{Kei}} are wrapper functions
@@ -75,7 +75,7 @@ Imaginary: \url{http://mathworld.wolfram.com/Kei.html}
 Real: \url{http://mathworld.wolfram.com/Ker.html}
 }
 \seealso{
-\code{\link{kelvin-package}}, \code{\link{Beir}}, \code{\link[Bessel]{BesselK}}
+\code{\link{kelvin-package}}, \code{\link{Beir}}, \code{\link{BesselK}}
 }
 \author{
 Andrew Barbour

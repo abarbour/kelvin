@@ -1,6 +1,6 @@
 Package: kelvin
 Type: Package
-Title: Calculate solutions to the Kelvin differential equation using Bessel functions
+Title: Calculate Solutions to the Kelvin Differential Equation using Bessel Functions
 Version: 2.0-2
 Date: 2020-06-17
 Author: Andrew J Barbour
