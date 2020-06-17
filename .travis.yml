@@ -7,12 +7,12 @@ warnings_are_errors: false
 apt_packages:
  - libgmp3-dev
  
-r_binary_packages:
-  - Bessel
-  - testthat
-  - knitr
-  - rmarkdown
-  - covr
+#r_binary_packages:
+#  - Bessel
+#  - testthat
+#  - knitr
+#  - rmarkdown
+#  - covr
 
 jobs:
   include:
