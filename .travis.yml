@@ -1,20 +1,17 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: r
 sudo: required
 dist: trusty
 cache: packages
 warnings_are_errors: false
-#latex: false
 
 apt_packages:
  - libgmp3-dev
  
 r_binary_packages:
+  - Bessel
   - testthat
   - knitr
   - rmarkdown
-  - Bessel
   - covr
 
 jobs:
