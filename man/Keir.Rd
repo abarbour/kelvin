@@ -9,8 +9,15 @@
 \usage{
 Keir(x, ...)
 
-\method{Keir}{default}(x, nu. = 0, nSeq. = 1, add.tol = TRUE,
-  return.list = FALSE, show.scaling = FALSE, ...)
+\method{Keir}{default}(
+  x,
+  nu. = 0,
+  nSeq. = 1,
+  add.tol = TRUE,
+  return.list = FALSE,
+  show.scaling = FALSE,
+  ...
+)
 
 Kei(...)
 
