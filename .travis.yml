@@ -6,6 +6,7 @@ warnings_are_errors: false
 
 apt_packages:
  - libgmp3-dev
+ - libmpfr-dev
  
 #r_binary_packages:
 #  - Bessel
