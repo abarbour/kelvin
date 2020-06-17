@@ -18,3 +18,4 @@ Rout$
 ^revdep$
 
 ^vignettes/figure$
+^appveyor\.yml$
