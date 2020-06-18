@@ -19,3 +19,4 @@ Rout$
 
 ^vignettes/figure$
 ^appveyor\.yml$
+^cran-comments\.md$
