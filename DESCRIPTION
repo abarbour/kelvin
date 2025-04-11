@@ -22,5 +22,6 @@ BugReports: https://github.com/abarbour/kelvin/issues
 LazyLoad: TRUE
 VignetteBuilder: knitr
 Encoding: UTF-8
+Language: en-US
 RoxygenNote: 7.3.2
 Config/testthat/edition: 3
