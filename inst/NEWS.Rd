@@ -55,4 +55,8 @@
     and is likely aware of the conflict.
   }
 }
-\section{kelvin INITIAL VERSION 1.0-0 (2012-05-30)}{}
+\section{kelvin INITIAL VERSION 1.0-0 (2012-05-30)}{
+  \itemize{
+    \item first version released to CRAN
+  }
+}

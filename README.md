@@ -9,11 +9,7 @@ by Andrew J Barbour
 badges: end -->
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/abarbour/kelvin/workflows/R-CMD-check/badge.svg)](https://github.com/abarbour/kelvin/actions)
-[![](https://www.r-pkg.org/badges/version-last-release/kelvin?color=green)](https://cran.r-project.org/package=kelvin)
-[![Code
-Coverage](https://codecov.io/github/abarbour/kelvin/coverage.svg?branch=master)](https://codecov.io/github/abarbour/kelvin?branch=master)
-[![Downloads](https://cranlogs.r-pkg.org/badges/kelvin)](https://www.r-pkg.org/pkg/kelvin) [![License](https://img.shields.io/badge/license-GPL-lightgrey.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![R-CMD-check](https://github.com/abarbour/kelvin/workflows/R-CMD-check/badge.svg)](https://github.com/abarbour/kelvin/actions)[![](https://www.r-pkg.org/badges/version-last-release/kelvin?color=green)](https://cran.r-project.org/package=kelvin)[![Code Coverage](https://codecov.io/github/abarbour/kelvin/coverage.svg?branch=master)](https://codecov.io/github/abarbour/kelvin?branch=master)[![Downloads](https://cranlogs.r-pkg.org/badges/kelvin)](https://www.r-pkg.org/pkg/kelvin) [![License](https://img.shields.io/badge/license-GPL-lightgrey.svg)](https://www.gnu.org/licenses/gpl-2.0.html)[![R-CMD-check](https://github.com/abarbour/kelvin/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abarbour/kelvin/actions/workflows/R-CMD-check.yaml)[![Codecov test coverage](https://codecov.io/gh/abarbour/kelvin/graph/badge.svg)](https://app.codecov.io/gh/abarbour/kelvin)
 <!-- badges: end -->
 
 --------
