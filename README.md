@@ -4,8 +4,16 @@ Solutions to the the Kelvin differential equation in R
 
 by Andrew J Barbour
 
-<!-- badges: start -->
+<!-- 
 [![Travis Build Status](https://travis-ci.org/abarbour/kelvin.svg)](https://travis-ci.org/abarbour/kelvin)[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/abarbour/kelvin?branch=master&svg=true)](https://ci.appveyor.com/project/abarbour/kelvin)[![Code Coverage](https://codecov.io/gh/abarbour/kelvin/branch/master/graph/badge.svg)](https://codecov.io/gh/abarbour/kelvin?branch=master)[![License](https://img.shields.io/badge/license-GPL-orange.svg)](https://www.gnu.org/licenses/gpl-2.0.html)[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/kelvin)](https://cran.r-project.org/package=kelvin)[![Downloads](https://cranlogs.r-pkg.org/badges/kelvin)](https://www.r-pkg.org/pkg/kelvin)
+badges: end -->
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/abarbour/kelvin/workflows/R-CMD-check/badge.svg)](https://github.com/abarbour/kelvin/actions)
+[![](https://www.r-pkg.org/badges/version-last-release/kelvin?color=green)](https://cran.r-project.org/package=kelvin)
+[![Code
+Coverage](https://codecov.io/github/abarbour/kelvin/coverage.svg?branch=master)](https://codecov.io/github/abarbour/kelvin?branch=master)
+[![Downloads](https://cranlogs.r-pkg.org/badges/kelvin)](https://www.r-pkg.org/pkg/kelvin) [![License](https://img.shields.io/badge/license-GPL-lightgrey.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 <!-- badges: end -->
 
 --------
