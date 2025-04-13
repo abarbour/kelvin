@@ -2,9 +2,13 @@ Package: kelvin
 Type: Package
 Title: Calculate Solutions to the Kelvin Differential Equation using Bessel Functions
 Version: 2.0-3
-Date: 2025-04-11
-Author: Andrew J Barbour
-Maintainer: Andrew J Barbour <andy.barbour@gmail.com>
+Date: 2025-04-13
+Authors@R:
+    c(person(given = c("Andrew","J."),
+             family = "Barbour",
+             role = c("aut", "cre"),
+             email = "andy.barbour@gmail.com",
+             comment = c(ORCID = "0000-0002-6890-2452")))
 Description: Uses Bessel functions to calculate the
     fundamental and complementary analytic solutions to the
     Kelvin differential equation.

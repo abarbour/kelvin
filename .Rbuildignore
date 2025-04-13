@@ -1,6 +1,8 @@
 .git
 .git/*
 .gitignore
+.github
+.github/*
 .RData
 .Rhistory
 
