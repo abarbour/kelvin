@@ -1,0 +1,5 @@
+package,old,new,delta
+kelvin,2.0-2,2.0-3,*
+Bessel,0.6-1,0.6-1,
+gmp,0.7-5,0.7-5,
+Rmpfr,1.0-0,1.0-0,

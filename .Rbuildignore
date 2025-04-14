@@ -25,3 +25,4 @@ Rout$
 ^CRAN-RELEASE$
 ^\.github$
 ^codecov\.yml$
+^CRAN-SUBMISSION$

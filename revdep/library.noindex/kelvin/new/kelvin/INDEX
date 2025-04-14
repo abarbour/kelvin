@@ -1,0 +1,7 @@
+Beir                    Fundamental solution to the Kelvin differential
+                        equation (J)
+Keir                    Complementary solution to the Kelvin
+                        differential equation (K)
+kelvin-package          Fundamental and equivalent solutions to the
+                        Kelvin differential equation using Bessel
+                        functions
